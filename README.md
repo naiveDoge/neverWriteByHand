@@ -10,5 +10,8 @@ pip install pillow
 
 3.将文本文档(txt)用main.py打开
 
-# 结果展示
+## 结果展示
 ![img](https://github.com/SAI-24-me/neverWriteByHand/blob/master/img/test.jpg)
+
+## Thanks for
+https://github.com/SAI-24-me/neverWriteByHand
