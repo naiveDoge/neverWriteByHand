@@ -1,9 +1,12 @@
 # neverWriteByHand
+## 依赖
+pip install pillow
+
 ## 使用方法
 
 1.挑选汉字手写字体 http://www.foundertype.com 
 
-2.将挑选的ttf字体文件改名为test.ttf移至文件目录用于生成图片
+2.将挑选的ttf字体文件改名为font.ttf移至文件目录用于生成图片
 
 3.将文本文档(txt)用main.py打开
 

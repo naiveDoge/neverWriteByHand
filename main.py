@@ -8,7 +8,7 @@ def main():
     page = 1
     flag = 0
     while flag < lenstr:
-        img = Image.open('text.png')
+        img = Image.open('background.png')
         draw = ImageDraw.Draw(img)
         for i in range(28):
             for j in range(38):
@@ -28,7 +28,7 @@ def main():
 
 if __name__ == "__main__":
     size = 4 #整齐度
-    font = ImageFont.truetype("test.ttf", 25) #设置字体
+    font = ImageFont.truetype("font.ttf", 25) #设置字体
     f = open(sys.argv[1], 'r', encoding='utf-8') #设置文档
     string = f.read()
     f.close()
